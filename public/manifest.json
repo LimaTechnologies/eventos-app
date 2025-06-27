@@ -1,0 +1,88 @@
+{
+    "name": "Eventos Araçatuba - Agenda Cultural",
+    "short_name": "Eventos ATB",
+    "description": "Descubra todos os eventos públicos, festivais, shows e atividades culturais acontecendo em Araçatuba",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#3b82f6",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "pt-BR",
+    "categories": [
+        "entertainment",
+        "lifestyle",
+        "social"
+    ],
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshot-mobile.png",
+            "sizes": "390x844",
+            "type": "image/png",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "/screenshot-desktop.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Eventos de Hoje",
+            "short_name": "Hoje",
+            "description": "Ver eventos acontecendo hoje",
+            "url": "/?today=true",
+            "icons": [
+                {
+                    "src": "/shortcut-today.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Calendário",
+            "short_name": "Calendário",
+            "description": "Ver calendário completo de eventos",
+            "url": "/calendario",
+            "icons": [
+                {
+                    "src": "/shortcut-calendar.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Festival do Cupim",
+            "short_name": "Festival",
+            "description": "Ver restaurantes do Festival do Cupim",
+            "url": "/festival-cupim",
+            "icons": [
+                {
+                    "src": "/shortcut-festival.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ]
+}
