@@ -20,7 +20,7 @@ export function EventBanner({ event, showCountdown = false }: EventBannerProps) 
 
   return (
     <>
-      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 text-white shadow-xl w-full">
+      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 text-white shadow-xl w-full max-h-[70%]">
         <div className="absolute inset-0 opacity-20">
           <Image src={event.image || "/placeholder.svg"} alt={event.title} fill className="object-cover" />
         </div>
