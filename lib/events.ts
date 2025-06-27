@@ -149,6 +149,15 @@ export const events: Event[] = [
     image: "/images/agenda-junho.png",
     location: "Teatro São João",
   },
+  {
+    id: "15",
+    title: "Jogo do AEA x NOROESTE",
+    description: "Partida de futebol da copa paulista (terceira rodada)",
+    date: new Date("2025-06-27T20:00:00"),
+    time: "20:00",
+    image: "/images/aea.jpg",
+    location: "Estádio Municipal Adhemar de Barros",
+  }
 ]
 
 export function getNextEvent(): Event | null {
