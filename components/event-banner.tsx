@@ -21,12 +21,12 @@ export function EventBanner({ event, showCountdown = false }: EventBannerProps) 
   return (
     <>
       <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 text-white shadow-xl w-full max-h-[70%]">
-        <div className="absolute inset-0 opacity-20">
+        <div className="inset-0 opacity-20">
           <Image src={event.image || "/placeholder.svg"} alt={event.title} fill className="object-cover" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
 
-        <div className="relative p-6">
+        <div className="h-[60vh] p-6 text-white">
           <div className="mb-4 text-center">
             <span
               className={`inline-block backdrop-blur-sm rounded-full px-4 py-2 text-sm font-semibold tracking-wide ${
@@ -38,7 +38,7 @@ export function EventBanner({ event, showCountdown = false }: EventBannerProps) 
           </div>
 
           <h1 className="text-2xl font-bold mb-4 leading-tight text-center">{event.title}</h1>
-          <p className="text-white/90 mb-6 text-base leading-relaxed line-clamp-3 text-center">{event.description}</p>
+          <p className="text-white/90 mb-6 text-base leading-relaxed line-clamp-3 font-bold text-center">{event.description}</p>
 
           <div className="flex flex-wrap justify-center gap-2 mb-4">
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-lg px-3 py-2">
