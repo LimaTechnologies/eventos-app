@@ -7,8 +7,8 @@ export const events: Event[] = [
     title: "Cãopanheiro",
     description:
       "Evento gratuito para toda família e pets com concursos, feira de adoção, atrações musicais e muito mais",
-    date: new Date("2024-12-29T08:30:00"),
-    time: "08:30",
+    date: new Date("2025-06-29T08:30:00"),
+    time: "08:30 ás 12:00",
     image: "/placeholder.svg?height=200&width=300",
     location: "Praça João Pessoa",
   },
@@ -148,5 +148,14 @@ export const events: Event[] = [
     time: "16:00",
     image: "/images/agenda-junho.png",
     location: "Teatro São João",
+  },
+  {
+    id: "15",
+    title: "Jogo do AEA x NOROESTE",
+    description: "Partida de futebol da copa paulista (terceira rodada)",
+    date: new Date("2025-06-27T20:00:00"),
+    time: "20:00",
+    image: "/images/aea.jpg",
+    location: "Estádio Municipal Adhemar de Barros",
   },
 ]
