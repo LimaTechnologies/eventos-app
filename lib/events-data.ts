@@ -158,4 +158,13 @@ export const events: Event[] = [
     image: "/images/aea.jpg",
     location: "Estádio Municipal Adhemar de Barros",
   },
+  {
+    id: "16",
+    title: "Oficina de modelagem e escrita de projetos cultirais",
+    description: "O objetivo desta oficina é apresentar ferramentas de planejamento para a criação de um Projeto Cultural objetivo viável e criativo. A primeira etapa será a modelagem do projeto com questões básicas que possam delimitar o que é mais importante frisar em cada parte/texto do projeto. Após isso criaremos também uma lista onde definiremos as tarefas responsáveis e prazo para que assim todos os documentos necessários - estudos, orçamentos, contratações e pesquisas possam ser executadas na confecção do projeto garantindo uma maior viabilidade. E para finalizar de forma criativa analisaremos os principais critérios exigidos em Editais como impacto cultural, relevância artística, democratização, descentralização e formação de público. Disponibilizando assim ferramentas para que haja a escrita de Projetos competitivos nos principais editais do Estado.",
+    date: new Date("2025-06-28T13:00:00"),
+    time: "13:00 ás 16:00",
+    image: "/images/oficina-modelagem.jpeg",
+    location: "Centro cultural associata, rua quinze de novembro, 275 - CENTRO",
+  }
 ]
