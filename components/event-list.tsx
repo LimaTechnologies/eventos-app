@@ -38,12 +38,19 @@ export function EventList({ events, variant = "normal" }: EventListProps) {
           return (
             <div
               key={event.id}
-              className={`bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300 ${
-                isFinished ? "grayscale opacity-60" : ""
-              } ${happening ? "ring-2 ring-green-500 ring-opacity-50" : ""}`}
+              className={`bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300 ${isFinished ? "grayscale opacity-60" : ""
+                } ${happening ? "ring-2 ring-green-500 ring-opacity-50" : ""}`}
             >
               <div className={`flex ${variant === "zigzag" && !imageOnLeft ? "flex-row-reverse" : ""}`}>
-                <div className="flex-shrink-0 w-32 h-32 relative">
+                <div
+                  className="flex-shrink-0 w-32 h-32 relative"
+                  onClick={
+                    () => {
+                      setSelectedEvent(event)
+                    }
+                  }
+
+                >
                   <Image
                     src={event.image || "/placeholder.svg"}
                     alt={event.title}
