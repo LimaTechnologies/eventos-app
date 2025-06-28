@@ -21,9 +21,9 @@ export function EventBanner({ event, showCountdown = false }: EventBannerProps) 
   return (
     <>
       <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 text-white shadow-xl w-full max-h-[70%]">
-        <div className="inset-0 opacity-20">
+        {/* <div className="inset-0 opacity-20">
           <Image src={event.image || "/placeholder.svg"} alt={event.title} fill className="object-cover" />
-        </div>
+        </div> */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
 
         <div className="h-[60vh] p-6 text-white">
