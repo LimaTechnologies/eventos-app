@@ -18,21 +18,9 @@ export function BottomNavigation() {
     {
       href: "/",
       icon: Home,
-      label: "Menu",
+      label: "Calendario",
       active: pathname === "/",
-    },
-    {
-      href: "/calendario",
-      icon: Calendar,
-      label: "Calendário",
-      active: pathname === "/calendario",
-    },
-    {
-      href: "/eventos",
-      icon: List,
-      label: "Todos os eventos",
-      active: pathname === "/eventos",
-    },
+    }
   ]
 
   return (
