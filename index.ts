@@ -151,9 +151,13 @@ async function main() {
 
 async function commitAndPushChanges() {
     const { execSync } = require("child_process");
-    execSync("git add .", { stdio: "inherit" });
-    execSync('git commit -m "Add new events"', { stdio: "inherit" });
-    execSync("git push -u origin main", { stdio: "inherit" });
+    try {
+        execSync("git add .", { stdio: "inherit" });
+        execSync('git commit -m "Add new events"', { stdio: "inherit" });
+        execSync("git push -u origin main", { stdio: "inherit" });
+    } catch (error) {
+        console.error("Erro ao fazer commit e push:", error);
+    }
 }
 
 main()
