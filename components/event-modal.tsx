@@ -42,12 +42,13 @@ export function EventModal({ event, isOpen, onClose }: EventModalProps) {
     <div className="fixed inset-0 bg-black/60 flex items-center justify-center p-4 z-[9999]">
       <div className="bg-white rounded-2xl w-[90%] h-[90%] overflow-hidden shadow-2xl relative max-w-4xl max-h-[90vh]">
         {/* Imagem de fundo ocupando todo o modal */}
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 w-full h-full flex items-center justify-center">
           <Image
             src={event.image || "/placeholder.svg"}
             alt={event.title}
-            fill
-            className="object-contain bg-gray-100"
+            width={300}
+            height={400}
+            className="object-contain w-[70%] h-full"
           />
         </div>
 

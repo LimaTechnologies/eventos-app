@@ -43,7 +43,7 @@ export function EventList({ events, variant = "normal" }: EventListProps) {
             >
               <div className={`flex ${variant === "zigzag" && !imageOnLeft ? "flex-row-reverse" : ""}`}>
                 <div
-                  className="flex-shrink-0 w-32 h-32 relative"
+                  className="flex w-32 h-full relative cursor-pointer"
                   onClick={
                     () => {
                       setSelectedEvent(event)
@@ -58,6 +58,7 @@ export function EventList({ events, variant = "normal" }: EventListProps) {
                     height={128}
                     className="w-full h-full object-cover"
                   />
+                  {/* Indicadores de status */}
                   {happening && (
                     <div className="absolute top-2 right-2">
                       <span className="bg-green-600 text-white px-2 py-1 rounded-full text-xs font-semibold animate-pulse">

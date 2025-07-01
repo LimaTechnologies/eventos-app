@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { CalendarGrid } from "@/components/calendar-grid"
 import { EventList } from "@/components/event-list"
 import { useEvents } from "@/contexts/events-context"
@@ -11,6 +11,15 @@ export default function CalendarioPage() {
   const [selectedEvents, setSelectedEvents] = useState<any[]>([])
   const [isLoading, setIsLoading] = useState(false)
   const { getEventsForDate, loading } = useEvents()
+
+  useEffect(() => {
+    // Carrega os eventos do dia atual ao montar o componente
+    const today = new Date()
+    setSelectedDate(today)
+    const events = getEventsForDate(today)
+    setSelectedEvents(events)
+    setIsLoading(false)
+  }, [])
 
   const handleDateSelect = (date: Date) => {
     setIsLoading(true)
@@ -55,9 +64,8 @@ export default function CalendarioPage() {
             </div>
 
             <div
-              className={`transition-all duration-500 ease-in-out relative ${
-                isLoading ? "opacity-0 transform translate-y-4" : "opacity-100 transform translate-y-0"
-              }`}
+              className={`transition-all duration-500 ease-in-out relative ${isLoading ? "opacity-0 transform translate-y-4" : "opacity-100 transform translate-y-0"
+                }`}
             >
               {isLoading ? (
                 <div className="text-center py-8">
