@@ -149,4 +149,24 @@ async function main() {
     console.log(`✅ ${newEvents.length} evento(s) adicionados. Total agora: ${all.length}`);
 }
 
-main().catch(console.error);
+async function commitAndPushChanges() {
+    const { execSync } = require("child_process");
+    execSync("git add .", { stdio: "inherit" });
+    execSync('git commit -m "Add new events"', { stdio: "inherit" });
+    execSync("git push -u origin main", { stdio: "inherit" });
+}
+
+main()
+    .then(() => {
+        commitAndPushChanges();
+    })
+    .catch(console.error);
+
+
+setInterval(() => {
+    main()
+        .then(() => {
+            commitAndPushChanges();
+        })
+        .catch(console.error);
+}, 1000 * 60 * 60 * 6); // Executa a cada 6 horas
