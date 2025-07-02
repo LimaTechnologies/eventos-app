@@ -252,5 +252,60 @@
     "time": "00:00 - 23:59",
     "image": "https://aracatuba.sp.gov.br//cultura/controle/arquivo/p_collaborata-bis-ao-vivo-e-formativo_2025-07-01_17-05-41.jpeg",
     "location": "Espaço Pimenta Cultural Biblioteca Municipal Praça João Pessoa"
+  },
+  {
+    "id": "dia-mundial-do-rock---no-museu-2015-07-12",
+    "title": "Dia Mundial do Rock - no Museu",
+    "description": "",
+    "date": "2015-07-12T00:00:00",
+    "endDate": "2025-07-13T23:59:59",
+    "time": "00:00 - 23:59",
+    "image": "https://aracatuba.sp.gov.br//cultura/controle/arquivo/p_dia-mundial-do-rock-no-museu_2025-07-02_13-59-40.jpg",
+    "location": "Museu Ferroviário"
+  },
+  {
+    "id": "circulaê---bairro-são-josé-2025-07-06",
+    "title": "Circulaê - bairro São José",
+    "description": "",
+    "date": "2025-07-06T09:00:00",
+    "time": "09:00",
+    "image": "https://aracatuba.sp.gov.br//cultura/controle/arquivo/p_circulae-bairro-sao-jose_2025-07-02_14-53-19.jpeg",
+    "location": "Praça Álvaro Carvalho SantAna"
+  },
+  {
+    "id": "dia-mundial-do-rock---na-praça-2025-07-13",
+    "title": "Dia Mundial do Rock - na Praça",
+    "description": "",
+    "date": "2025-07-13T16:00:00",
+    "time": "16:00",
+    "image": "https://aracatuba.sp.gov.br//cultura/controle/arquivo/p_dia-mundial-do-rock-na-praca_2025-07-02_14-28-39.jpg",
+    "location": "Praça João Pessoa"
+  },
+  {
+    "id": "intervenção-circense-lá-vem-a-bonita-da-dupla-de-palhaços-roda-riso-2025-07-19",
+    "title": "Intervenção circense Lá vem a Bonita da dupla de palhaços Roda Riso",
+    "description": "",
+    "date": "2025-07-19T16:00:00",
+    "time": "16:00",
+    "image": "https://aracatuba.sp.gov.br//cultura/controle/arquivo/p_intervencao-circense-la-vem-a-bonita-da-dupla-de-palhacos-roda-riso_2025-07-02_14-37-21.png",
+    "location": "Praça Manoel da Silva Prates - Bairro Jussara"
+  },
+  {
+    "id": "tarde-encantada-2025-07-19",
+    "title": "Tarde Encantada",
+    "description": "",
+    "date": "2025-07-19T16:00:00",
+    "time": "16:00",
+    "image": "https://aracatuba.sp.gov.br//cultura/controle/arquivo/p_249-tarde-encantada_2025-07-02_15-41-49.png",
+    "location": "Biblioteca Municipal Rubens do Amaral"
+  },
+  {
+    "id": "encontro-de-jogos-de-mesa-e-rpg-2025-07-26",
+    "title": "Encontro de Jogos de Mesa e RPG",
+    "description": "",
+    "date": "2025-07-26T15:00:00",
+    "time": "15:00",
+    "image": "https://aracatuba.sp.gov.br//cultura/controle/arquivo/p_250-encontro-de-jogos-de-mesa-e-rpg_2025-07-02_15-41-00.jpeg",
+    "location": "Biblioteca Municipal Rubens do Amaral"
   }
 ]
