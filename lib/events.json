@@ -307,5 +307,15 @@
     "time": "15:00",
     "image": "https://aracatuba.sp.gov.br//cultura/controle/arquivo/p_250-encontro-de-jogos-de-mesa-e-rpg_2025-07-02_15-41-00.jpeg",
     "location": "Biblioteca Municipal Rubens do Amaral"
+  },
+  {
+    "id": "18ª-mostra-senac-de-artes-cênicas-2025-06-30",
+    "title": "18ª Mostra Senac de Artes Cênicas",
+    "description": "A Mostra Senac de Artes Cênicas é onde o talento ganha forma emoção e voz\nAo longo dos próximos dias você vai poder assistir a espetáculos teatrais explorar exposições incríveis participar de rodas de conversa e vivenciar oficinas criativas sobre a sétima arte.",
+    "date": "2025-06-30T00:00:00",
+    "endDate": "2025-07-05T23:59:59",
+    "time": "00:00 - 23:59",
+    "image": "https://aracatuba.sp.gov.br//cultura/controle/arquivo/p_251-18-mostra-senac-de-artes-cenicas_2025-07-03_16-09-10.jpg",
+    "location": "Senac Araçatuba - Av. João Arruda Brasil 500"
   }
 ]
